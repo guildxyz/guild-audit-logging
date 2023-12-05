@@ -1,2 +1,2 @@
 export * from "./types";
-export * from "./AuditLogger";
+export { default as AuditLogger } from "./AuditLogger";

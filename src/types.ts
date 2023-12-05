@@ -40,7 +40,9 @@ export type Action =
   | "transfer ownership"
   | "execute pending actions"
   | "click join on web"
-  | "click join on platform";
+  | "click join on platform"
+  | "user opt-in"
+  | "user opt-out";
 
 export type AuditLogIds = {
   userId?: number;
